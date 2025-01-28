@@ -4,4 +4,4 @@ place_footprints.log
 
 *.log
 ~*
-prrpls406-backups/*
+*/*-backups/*
