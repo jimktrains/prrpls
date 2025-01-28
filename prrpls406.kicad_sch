@@ -1309,10 +1309,16 @@
 		)
 	)
 	(junction
-		(at 100.33 102.87)
+		(at 151.13 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "21c68d3e-5842-472d-ba23-05ac67f0f9ad")
+		(uuid "16c0f3ee-2dbf-4dd2-a7b1-e59b07ff1bf7")
+	)
+	(junction
+		(at 151.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "510d5ad3-4c01-4cbc-935f-931fceb21641")
 	)
 	(junction
 		(at 151.13 85.09)
@@ -1321,22 +1327,38 @@
 		(uuid "6b68d847-6329-40dd-8d31-ee7420735b3f")
 	)
 	(junction
+		(at 100.33 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7275feca-f6e5-427c-b5f5-4cc030482bb6")
+	)
+	(junction
+		(at 151.13 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d6aad3-dcfc-4096-bb19-2c1f166185ee")
+	)
+	(junction
 		(at 151.13 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0140c10-28dd-4935-9505-f6c096194889")
 	)
 	(junction
-		(at 151.13 107.95)
+		(at 151.13 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e625b84b-43df-4235-9ee0-bba304f0a2bf")
+		(uuid "dccc7a9c-dd2a-42de-ba40-147f1ca47477")
 	)
-	(junction
-		(at 151.13 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff92fb66-b63d-4947-b1f7-98fef8db78c2")
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7af3a5-f5dd-483d-a195-0b6285b15734")
 	)
 	(wire
 		(pts
@@ -1350,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 80.01) (xy 151.13 85.09)
+			(xy 151.13 77.47) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1360,17 +1382,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 107.95) (xy 151.13 111.76)
+			(xy 100.33 100.33) (xy 100.33 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72042d1e-614c-4d93-9af1-c02b8262fa95")
+		(uuid "62aabe8f-4230-47a3-8119-619ee669bc8c")
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 100.33 102.87)
+			(xy 100.33 97.79) (xy 100.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1402,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 87.63) (xy 151.13 97.79)
+			(xy 140.97 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b98873f-d920-4eac-99e2-855b45061e7f")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1390,13 +1422,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 151.13 107.95)
+			(xy 151.13 97.79) (xy 151.13 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93cab497-f7bf-44b8-af45-30963c840501")
+		(uuid "b4dd79ce-009b-4f34-861e-06ebf0fe5d57")
 	)
 	(wire
 		(pts
@@ -1408,16 +1440,25 @@
 		)
 		(uuid "b81b14ed-c050-4432-84c2-3c79526e7a19")
 	)
-	(label "Serial"
-		(at 140.97 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 151.13 107.95) (xy 151.13 111.76)
 		)
-		(uuid "211e155d-9cf2-46c9-b19f-7df67dd3a04b")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb008c1f-124e-4580-a941-99638d7c9016")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88bfe8f-6d9e-4b2c-84ab-b44798fa2bee")
 	)
 	(label "UPDI"
 		(at 140.97 74.93 0)
@@ -1441,6 +1482,17 @@
 		)
 		(uuid "47e3268f-3ff4-4587-bc80-abdce566162b")
 	)
+	(label "Serial"
+		(at 140.97 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2793303-b65e-4e2c-85c9-a98c5901d189")
+	)
 	(label "UPDI"
 		(at 140.97 43.18 270)
 		(fields_autoplaced yes)
@@ -1453,266 +1505,6 @@
 		(uuid "ed5de97a-2fbe-474a-a49d-4b95d5ad0cde")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 260.2065 117.7687 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01cb51f5-04fe-4e24-995e-fc99383cbdf0")
-		(property "Reference" "H1031"
-			(at 262.7465 116.4986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 262.7465 119.0386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 260.2065 117.7687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.2065 117.7687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 260.2065 117.7687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 91.44 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "050acbe1-a275-4818-aab8-918bf2a55d9e")
-		(property "Reference" "H1028"
-			(at 237.49 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 73.66 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "054bb601-d082-441c-be94-146228919576")
-		(property "Reference" "H1021"
-			(at 236.22 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08ca6788-b889-4b12-b80e-883a75ff4fe4")
-		(property "Reference" "R1006"
-			(at 183.134 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89a659ac-6eee-4002-9c70-a7bcdc2ea7f5")
-		)
-		(pin "1"
-			(uuid "056040ba-b4d3-45ca-9dd8-f15cf9b523ef")
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 88.9 72.39 0)
 		(unit 1)
@@ -1722,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a633eec-3544-44ca-8b5b-4e03e8a59eea")
-		(property "Reference" "C1001"
+		(property "Reference" "C1"
 			(at 92.71 71.1199 0)
 			(effects
 				(font
@@ -1776,7 +1568,7 @@
 		(instances
 			(project ""
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "C1001")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1784,15 +1576,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 143.51 80.01 90)
+		(at 143.51 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0eaeb000-9822-47c9-b94e-a75ef743a8a1")
-		(property "Reference" "R1005"
-			(at 181.864 80.01 90)
+		(property "Reference" "R5"
+			(at 181.864 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1592,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 143.51 76.2 90)
+			(at 143.51 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,8 +1600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.51 80.01 0)
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 80.01 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1619,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 143.51 80.01 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1636,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1005")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1860,7 +1652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1584e2e5-4a2c-4779-80d2-64efe717dae9")
-		(property "Reference" "TP1003"
+		(property "Reference" "TP3"
 			(at 130.81 38.6079 0)
 			(effects
 				(font
@@ -1911,326 +1703,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "TP1003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 107.95 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a3d5008-01cb-4cda-a5b7-e8ac8a8506bb")
-		(property "Reference" "H1023"
-			(at 236.22 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 233.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 262.89 147.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd2df07-c065-43b8-a8fd-66084f1591f6")
-		(property "Reference" "H1036"
-			(at 265.43 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 265.43 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 83.82 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f1cb37c-c330-4a75-a1b9-82f57b65face")
-		(property "Reference" "H1003"
-			(at 257.81 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 255.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 142.24 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f463e23-b210-4b2c-8ba5-1a6b31790d58")
-		(property "Reference" "H1035"
-			(at 264.16 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.16 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 256.54 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f4aaa0e-cf82-4aa9-aa55-9308d7cf53cd")
-		(property "Reference" "H1005"
-			(at 259.08 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 259.08 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 256.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 256.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1005")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2370,15 +1843,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 102.87 102.87 0)
+		(at 102.87 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "27ee6327-e3dd-4695-9f64-cb3ce59a3e81")
-		(property "Reference" "D1005"
-			(at 76.454 102.87 0)
+		(property "Reference" "D6"
+			(at 76.454 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +1859,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 89.154 102.616 0)
+			(at 89.154 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +1868,7 @@
 			)
 		)
 		(property "Footprint" "JSK:LED_0402_1005Metric"
-			(at 102.87 102.87 90)
+			(at 102.87 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +1877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 102.87 90)
+			(at 102.87 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +1886,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 102.87 102.87 0)
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +1895,7 @@
 			)
 		)
 		(property "Position" "BottomLeft"
-			(at 0 205.74 0)
+			(at 0 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,42 +1911,41 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1005")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 220.98 161.29 0)
+		(lib_id "Device:LED_Small_Filled")
+		(at 148.59 105.41 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29cfe648-f354-4ce9-9c93-06d2ef6f3ddc")
-		(property "Reference" "H1015"
-			(at 223.52 160.0199 0)
+		(uuid "2dd90165-4d7d-4b3d-b094-773ea9c2927d")
+		(property "Reference" "D4"
+			(at 174.752 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 223.52 162.5599 0)
+		(property "Value" "LED_Small_Filled"
+			(at 163.068 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 220.98 161.29 0)
+		(property "Footprint" "JSK:LED_0402_1005Metric"
+			(at 148.59 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +1954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 161.29 0)
+			(at 148.59 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,211 +1962,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 220.98 161.29 0)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Position" "Center"
+			(at 297.18 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83677ea9-bc94-434e-9b1b-d7ad732c73c6")
+		)
+		(pin "1"
+			(uuid "10ef8de5-8a2b-4622-95d3-aa6d5d703129")
 		)
 		(instances
-			(project "prrpls406"
+			(project "kicadpartsplacer"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 218.44 152.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a417171-ec67-4536-898a-0109530dc008")
-		(property "Reference" "H1014"
-			(at 220.98 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 220.98 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 80.01 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3454685b-ef82-453e-afa4-5c53619b336b")
-		(property "Reference" "H1022"
-			(at 236.22 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 233.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 193.04 162.56 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39294fea-1b44-4e8c-81e0-97c55cedd9ce")
-		(property "Reference" "H1013"
-			(at 195.58 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 195.58 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 193.04 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 193.04 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1013")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2710,7 +2004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a6ae0bd-8fc5-4a80-b2d4-405c55861442")
-		(property "Reference" "U1001"
+		(property "Reference" "U1"
 			(at 127.9241 67.31 0)
 			(effects
 				(font
@@ -2728,7 +2022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "JSK:extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -2822,71 +2116,7 @@
 		(instances
 			(project ""
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "U1001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 133.35 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4240a1e0-783d-4912-82d7-a33cbc90d857")
-		(property "Reference" "H1033"
-			(at 261.62 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 261.62 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 259.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 259.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1033")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2960,15 +2190,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 102.87 97.79 0)
+		(at 148.59 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "47aa6a93-8bee-4d3c-b3d7-0bd39e98fa8d")
-		(property "Reference" "D1004"
-			(at 76.454 97.79 0)
+		(property "Reference" "D7"
+			(at 175.006 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2207,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 89.154 97.536 0)
+			(at 162.306 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" "JSK:LED_0402_1005Metric"
-			(at 102.87 97.79 90)
+			(at 148.59 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 97.79 90)
+			(at 148.59 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 102.87 97.79 0)
+			(at 148.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +2243,7 @@
 			)
 		)
 		(property "Position" "Bottom"
-			(at 0 195.58 0)
+			(at 251.46 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,42 +2259,40 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1004")
+					(reference "D7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 256.54 88.9 0)
+		(lib_id "Device:R_Small_US")
+		(at 143.51 105.41 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "490b5d4f-e636-4f75-9505-05fad49a33cd")
-		(property "Reference" "H1004"
-			(at 259.08 87.6299 0)
+		(uuid "4ab5feb8-28b9-4595-b45e-c6e5638fd3b4")
+		(property "Reference" "R4"
+			(at 183.134 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 259.08 90.1699 0)
+		(property "Value" "0"
+			(at 143.51 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 256.54 88.9 0)
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 88.9 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,19 +2309,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 256.54 88.9 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "debf79b1-6e89-4a25-b1c7-22d262b70789")
+		)
+		(pin "1"
+			(uuid "43ceef37-6e6b-47bc-87e2-9bb321b76973")
 		)
 		(instances
-			(project "prrpls406"
+			(project "kicadpartsplacer"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1004")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3100,7 +2335,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 148.59 80.01 0)
+		(at 148.59 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3108,8 +2343,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac81f8c-9334-4bf3-8f11-0f0e745fc6f8")
-		(property "Reference" "D1006"
-			(at 173.482 80.01 0)
+		(property "Reference" "D5"
+			(at 173.482 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +2352,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 161.798 80.01 0)
+			(at 161.798 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +2361,7 @@
 			)
 		)
 		(property "Footprint" "JSK:LED_0402_1005Metric"
-			(at 148.59 80.01 90)
+			(at 148.59 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +2370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 80.01 90)
+			(at 148.59 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +2379,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 148.59 80.01 0)
+			(at 148.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +2388,7 @@
 			)
 		)
 		(property "Position" "Left"
-			(at 297.18 160.02 0)
+			(at 297.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +2404,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1006")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3242,273 +2477,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 124.46 152.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5016c838-4a6b-4c17-9cc0-ad22100904b2")
-		(property "Reference" "H1029"
-			(at 127 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 127 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.5 npth"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 193.04 147.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5540555c-5b1e-4118-93ac-0ef24330c67e")
-		(property "Reference" "H1010"
-			(at 195.58 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 195.58 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 124.6035 157.8213 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56e83af7-fe2d-408e-abf3-52cfc90b36d0")
-		(property "Reference" "H1007"
-			(at 127.1435 156.5512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 127.1435 159.0912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.5 npth"
-			(at 124.6035 157.8213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.6035 157.8213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 124.6035 157.8213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1007")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.5716 85.4365 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e4b72dd-4fcb-4ef0-8b20-f8e9cd9dc8bb")
-		(property "Reference" "H1020"
-			(at 236.1116 84.1664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.1116 86.7064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 233.5716 85.4365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.5716 85.4365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.5716 85.4365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 107.95 97.79 270)
-		(mirror x)
+		(at 143.51 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5e86700f-c1d4-4805-b8cb-da6f46fc4409")
-		(property "Reference" "R1004"
-			(at 66.802 97.79 90)
+		(property "Reference" "R7"
+			(at 184.658 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +2494,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 107.95 93.98 90)
+			(at 143.51 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,8 +2502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 97.79 0)
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +2512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 97.79 0)
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +2521,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 107.95 97.79 0)
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,135 +2538,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 194.31 142.24 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ee08ae8-86a2-4639-a1a0-b885b25e1339")
-		(property "Reference" "H1009"
-			(at 196.85 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 196.85 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1009")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 194.2642 137.9843 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "652fd5a2-b39d-4c4c-9b9c-fdd3552a3e96")
-		(property "Reference" "H1008"
-			(at 196.8042 136.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 196.8042 139.2542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 194.2642 137.9843 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.2642 137.9843 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.2642 137.9843 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1008")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3762,7 +2612,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 107.95 102.87 270)
+		(at 107.95 100.33 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3770,8 +2620,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b1d7c37-3818-4fdb-819e-31c22b7a72e2")
-		(property "Reference" "R1003"
-			(at 68.58 102.87 90)
+		(property "Reference" "R6"
+			(at 68.58 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,15 +2629,15 @@
 			)
 		)
 		(property "Value" "0"
-			(at 107.95 99.06 90)
+			(at 107.95 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 102.87 0)
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 102.87 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +2655,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 107.95 102.87 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +2672,71 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1003")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71285b3a-3c90-4bcb-8d7e-e40a4be24e23")
+		(property "Reference" "H2"
+			(at 127 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 127 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JSK:0.5 npth"
+			(at 124.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 124.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "prrpls406"
+				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3838,7 +2752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75844262-1138-4d50-b74c-59a420add58d")
-		(property "Reference" "TP1002"
+		(property "Reference" "TP1"
 			(at 118.11 38.6079 0)
 			(effects
 				(font
@@ -3889,7 +2803,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "TP1002")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3905,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759547e3-faaa-4729-b28b-8afed9ea8505")
-		(property "Reference" "TP1004"
+		(property "Reference" "TP2"
 			(at 105.41 38.6079 0)
 			(effects
 				(font
@@ -3956,138 +2870,7 @@
 		(instances
 			(project ""
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "TP1004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80537f4d-0efc-4775-bdb5-06445c317d2a")
-		(property "Reference" "R1002"
-			(at 183.134 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "420bfee0-d7bd-449e-bf90-3af0a7c13e12")
-		)
-		(pin "1"
-			(uuid "47cdddf1-d899-49be-a825-682185c7412f")
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 72.39 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a34ab7b-f852-4f11-95e4-ca17d16539ea")
-		(property "Reference" "H1001"
-			(at 257.81 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 255.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1001")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4103,7 +2886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c97d807-0401-41eb-907b-d465dcfc061d")
-		(property "Reference" "D1001"
+		(property "Reference" "D3"
 			(at 171.958 84.074 0)
 			(effects
 				(font
@@ -4164,42 +2947,40 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1001")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 234.9042 98.6143 0)
+		(lib_id "Device:R_Small_US")
+		(at 143.51 107.95 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90b07295-85b6-46b8-996c-02b6d3ce9542")
-		(property "Reference" "H1027"
-			(at 237.4442 97.3442 0)
+		(uuid "90f8daa5-9987-4ee6-9d34-848d0f5b21ec")
+		(property "Reference" "R1"
+			(at 183.134 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 237.4442 99.8842 0)
+		(property "Value" "0"
+			(at 143.51 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 234.9042 98.6143 0)
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
+			(at 143.51 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +2989,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.9042 98.6143 0)
+			(at 143.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 143.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8dcb87c-d2eb-49fb-8638-5d9d4c6ffe31")
+		)
+		(pin "1"
+			(uuid "7f4d2f31-e3db-4652-a729-87a939774e72")
+		)
+		(instances
+			(project "kicadpartsplacer"
+				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d080b3-60e0-44da-826c-a7227947ecf0")
+		(property "Reference" "H1"
+			(at 127 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 127 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JSK:0.5 npth"
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 234.9042 98.6143 0)
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +3079,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1027")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4243,7 +3094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9276f8fc-095c-4eb4-9536-7582f19baa7f")
-		(property "Reference" "R1007"
+		(property "Reference" "R3"
 			(at 178.562 84.074 90)
 			(effects
 				(font
@@ -4260,7 +3111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -4296,7 +3147,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1007")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4436,275 +3287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 148.59 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1194a2b-9759-48ef-9e8e-609d2a76ccde")
-		(property "Reference" "D1003"
-			(at 175.006 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small_Filled"
-			(at 162.306 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "JSK:LED_0402_1005Metric"
-			(at 148.59 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Position" "Right"
-			(at 297.18 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9bdfd336-163c-4ea7-8f99-5e9fb8e4686a")
-		)
-		(pin "1"
-			(uuid "0437e681-fbb0-4288-928a-5fc87a36d272")
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 124.46 163.83 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a632d363-dff5-4394-873f-77f042d68221")
-		(property "Reference" "H1016"
-			(at 127 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 127 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.5 npth"
-			(at 124.46 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 124.46 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 121.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6b86029-80de-4104-9330-6ce1a287f9dc")
-		(property "Reference" "H1032"
-			(at 264.16 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.16 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 261.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 261.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 113.03 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a75afc04-160e-4a1a-8a6d-ce9210851e61")
-		(property "Reference" "H1024"
-			(at 236.22 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 143.51 87.63 90)
 		(unit 1)
@@ -4713,7 +3295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b000d35c-6792-41f2-b084-066b5703d391")
-		(property "Reference" "R1001"
+		(property "Reference" "R2"
 			(at 183.388 87.63 90)
 			(effects
 				(font
@@ -4730,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "JSK:Jumpered_R_0402_1005Metric"
 			(at 143.51 87.63 0)
 			(effects
 				(font
@@ -4766,7 +3348,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "R1001")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4782,7 +3364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b38ebbc9-017b-4fa3-ac7d-ebb8cc4f7d36")
-		(property "Reference" "D1002"
+		(property "Reference" "D2"
 			(at 175.006 87.63 0)
 			(effects
 				(font
@@ -4843,7 +3425,71 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1002")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 163.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c631a10e-953e-400a-92fc-911d40f50e38")
+		(property "Reference" "H3"
+			(at 127 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 127 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JSK:0.5 npth"
+			(at 124.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 124.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "prrpls406"
+				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4851,16 +3497,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 148.59 97.79 0)
+		(at 148.59 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b8c87542-7224-4470-9a69-31967512a5f2")
-		(property "Reference" "D1007"
-			(at 174.752 97.79 0)
+		(uuid "db1c53d6-3521-4cd9-bde6-47e598be7f23")
+		(property "Reference" "D1"
+			(at 175.006 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +3514,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 163.068 97.79 0)
+			(at 162.306 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" "JSK:LED_0402_1005Metric"
-			(at 148.59 97.79 90)
+			(at 148.59 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 97.79 90)
+			(at 148.59 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 148.59 97.79 0)
+			(at 148.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,8 +3549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Position" "Center"
-			(at 297.18 195.58 0)
+		(property "Position" "Right"
+			(at 297.18 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,399 +3558,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b505e234-619b-436f-9ba6-d69ad6402046")
+			(uuid "886c63cd-dce3-4d24-b68d-caa852254d9d")
 		)
 		(pin "1"
-			(uuid "7de4ee93-f2cd-4e37-8d38-b8397a0b4af7")
+			(uuid "a54e7825-7ae9-4277-9fc4-42063baf0841")
 		)
 		(instances
-			(project "prrpls406"
+			(project "kicadpartsplacer"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "D1007")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 232.41 57.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0fce692-be56-476c-9c17-6400ad1bf37b")
-		(property "Reference" "H1018"
-			(at 234.95 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 234.95 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 256.4316 100.6765 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb2a155b-775e-4e48-9143-4b265e3d0e66")
-		(property "Reference" "H1006"
-			(at 258.9716 99.4064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 258.9716 101.9464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 256.4316 100.6765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.4316 100.6765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 256.4316 100.6765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 232.41 68.58 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb571915-bb45-4a56-921f-0d2876df10a4")
-		(property "Reference" "H1019"
-			(at 234.95 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 234.95 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 232.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 232.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 234.0878 118.3017 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf654159-6d00-4cef-be39-0573ba6fe396")
-		(property "Reference" "H1026"
-			(at 236.6278 117.0316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.6278 119.5716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 234.0878 118.3017 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.0878 118.3017 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.0878 118.3017 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 231.14 62.23 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d09e326c-7822-4387-8b64-7b26b5595627")
-		(property "Reference" "H1017"
-			(at 233.68 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 233.68 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 231.14 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 231.14 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 193.4478 157.6717 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e08291da-e63d-4c34-bec4-18a69e5afa18")
-		(property "Reference" "H1012"
-			(at 195.9878 156.4016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 195.9878 158.9416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 193.4478 157.6717 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.4478 157.6717 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 193.4478 157.6717 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1012")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5320,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb459825-7a7f-4ed1-9592-4cf663ca6951")
-		(property "Reference" "TP1001"
+		(property "Reference" "TP4"
 			(at 143.51 38.6079 0)
 			(effects
 				(font
@@ -5371,7 +3633,7 @@
 		(instances
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "TP1001")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5438,70 +3700,6 @@
 			(project "prrpls406"
 				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
 					(reference "#PWR01006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 113.03 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa5c314c-5d0e-4582-9c1e-e954ed505608")
-		(property "Reference" "H1030"
-			(at 261.62 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 261.62 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JSK:0.3 npth"
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 259.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "prrpls406"
-				(path "/b3dab45c-4971-4cdb-98ea-e8f59ac1e5b8"
-					(reference "H1030")
 					(unit 1)
 				)
 			)
