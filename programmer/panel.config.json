@@ -1,0 +1,23 @@
+{
+    "layout": {
+        "alternation": "cols",
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vcount": "2",
+        "fillet": "1mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame",
+        "cuts": "none"
+    }
+}
