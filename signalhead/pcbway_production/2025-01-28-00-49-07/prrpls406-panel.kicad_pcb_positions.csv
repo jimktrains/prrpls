@@ -1,0 +1,172 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+36.665323,-11.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+26.332229,-36.666241,135.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+6.665323,-11.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+26.332229,-21.666241,135.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+6.665323,-26.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+26.332229,-6.666241,135.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+6.665323,-41.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+36.665323,-26.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+36.665323,-41.333147,-45.0,bottom,C1,,,R_0402_1005Metric_short_lines,0.1μF,smt
+38.998776,-35.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-5.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-35.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-12.299694,0.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-20.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-20.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-27.299694,0.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-5.699694,180.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-42.299694,0.0,top,D1,,,LED_0402_1005Metric,LED_Small_Filled,smt
+36.665323,-36.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+26.332229,-41.333146,45.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+36.665323,-21.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+36.665323,-6.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+6.665323,-6.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+6.665323,-21.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+26.332229,-26.333146,45.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+6.665323,-36.666242,-135.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+26.332229,-11.333146,45.0,top,D2,,,LED_0402_1005Metric,LED_Small_Filled,smt
+35.698776,-38.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+35.698776,-23.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+5.698776,-8.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+27.298776,-8.999694,90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+27.298776,-38.999694,90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+5.698776,-38.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+5.698776,-23.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+27.298776,-23.999694,90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+35.698776,-8.999694,-90.0,top,D3,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-23.999694,-90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-8.999694,-90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-23.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-38.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-8.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-8.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-38.999694,-90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-23.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-38.999694,90.0,top,D4,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-42.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-5.699694,180.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-12.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-42.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-20.699694,180.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+23.998776,-35.699694,180.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-12.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+8.998776,-27.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+38.998776,-27.299694,0.0,top,D5,,,LED_0402_1005Metric,LED_Small_Filled,smt
+41.332228,-26.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+41.332228,-41.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+11.332228,-26.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+11.332228,-41.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+11.332228,-11.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+41.332228,-11.359694,45.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+21.665324,-21.639694,-135.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+21.665324,-36.639694,-135.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+21.665324,-6.639694,-135.0,top,D6,,,LED_0402_1005Metric,LED_Small_Filled,smt
+20.698776,-8.999694,-90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+20.698776,-38.999694,-90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+20.698776,-23.999694,-90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+42.298776,-23.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+12.298776,-23.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+42.298776,-8.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+12.298776,-38.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+42.298776,-38.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+12.298776,-8.999694,90.0,top,D7,,,LED_0402_1005Metric,LED_Small_Filled,smt
+27.694295,-10.530427,-90.0,top,H1,,,0.5 npth,MountingHole,tht
+27.694295,-25.530427,-90.0,top,H1,,,0.5 npth,MountingHole,tht
+5.303257,-37.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+5.303257,-7.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+35.303257,-37.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+35.303257,-22.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+35.303257,-7.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+27.694295,-40.530427,-90.0,top,H1,,,0.5 npth,MountingHole,tht
+5.303257,-22.468961,90.0,top,H1,,,0.5 npth,MountingHole,tht
+25.52951,-20.304175,-90.0,top,H2,,,0.5 npth,MountingHole,tht
+7.468042,-27.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+7.468042,-12.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+25.52951,-5.304175,-90.0,top,H2,,,0.5 npth,MountingHole,tht
+25.52951,-35.304175,-90.0,top,H2,,,0.5 npth,MountingHole,tht
+7.468042,-42.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+37.468042,-12.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+37.468042,-42.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+37.468042,-27.695213,90.0,top,H2,,,0.5 npth,MountingHole,tht
+42.694294,-37.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+20.303258,-25.530427,-90.0,top,H3,,,0.5 npth,MountingHole,tht
+42.694294,-22.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+12.694294,-7.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+20.303258,-10.530427,-90.0,top,H3,,,0.5 npth,MountingHole,tht
+42.694294,-7.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+12.694294,-37.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+12.694294,-22.468961,90.0,top,H3,,,0.5 npth,MountingHole,tht
+20.303258,-40.530427,-90.0,top,H3,,,0.5 npth,MountingHole,tht
+38.998776,-5.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+38.998776,-35.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-42.299694,0.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-35.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+38.998776,-20.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-5.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-12.299694,0.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-27.299694,0.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-20.699694,180.0,bottom,R1,,,Jumpered_R_0402_1005Metric,0,smt
+6.665323,-6.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+26.332229,-11.333146,45.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+36.665323,-6.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+6.665323,-36.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+26.332229,-26.333146,45.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+36.665323,-36.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+36.665323,-21.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+26.332229,-41.333146,45.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+6.665323,-21.666242,-135.0,bottom,R2,,,Jumpered_R_0402_1005Metric,0,smt
+27.298776,-8.999694,90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+35.698776,-38.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+27.298776,-23.999694,90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+5.698776,-38.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+5.698776,-8.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+35.698776,-8.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+27.298776,-38.999694,90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+35.698776,-23.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+5.698776,-23.999694,-90.0,bottom,R3,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-6.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-6.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-11.333146,-45.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-36.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-36.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-21.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-21.666242,135.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-26.333146,-45.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-41.333146,-45.0,bottom,R4,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-27.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+38.998776,-27.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-35.699694,180.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-20.699694,180.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-42.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+8.998776,-12.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-5.699694,180.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+38.998776,-42.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+38.998776,-12.299694,0.0,bottom,R5,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-26.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-41.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-36.666241,-135.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-6.666241,-135.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-11.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+11.332228,-41.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+21.665324,-21.666241,-135.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-26.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+41.332228,-11.333147,45.0,bottom,R6,,,Jumpered_R_0402_1005Metric,0,smt
+12.298776,-8.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+42.298776,-23.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+12.298776,-23.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+42.298776,-8.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+12.298776,-38.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+20.698776,-38.999694,-90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+20.698776,-8.999694,-90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+20.698776,-23.999694,-90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+42.298776,-38.999694,90.0,bottom,R7,,,Jumpered_R_0402_1005Metric,0,smt
+23.998776,-38.999694,180.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+8.998776,-23.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+38.998776,-23.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+8.998776,-8.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+23.998776,-8.999694,180.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+38.998776,-8.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+23.998776,-23.999694,180.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+8.998776,-38.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
+38.998776,-38.999694,0.0,bottom,U1,,,extra_clearence_VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,ATtiny406-M,smt
