@@ -2,3 +2,6 @@ fp-info-cache
 place_footprints.ini
 place_footprints.log
 
+*.log
+~*
+prrpls406-backups/*

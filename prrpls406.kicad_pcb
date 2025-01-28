@@ -1061,7 +1061,7 @@
 			(layer "Dwgs.User")
 			(uuid "4bdc797e-fdff-4900-bd24-6d88156b43d6")
 		)
-		(fp_text user "KIKIT: width: 2mm"
+		(fp_text user "KIKIT: width: 2.5mm"
 			(at -5.499999 -0.000001 30)
 			(layer "Dwgs.User")
 			(uuid "aa1c21d1-e018-4b7a-93c0-8b5019cbc2e0")
@@ -1608,7 +1608,7 @@
 			(at 0 -2.000001 45)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "578816bc-995e-473c-a0f8-7fccc43972f4")
+			(uuid "7e2914cf-6d24-4a9d-a985-bfdceba913cd")
 			(effects
 				(font
 					(size 1 1)
@@ -1619,7 +1619,7 @@
 		(property "Value" "Tab"
 			(at -3 -1 45)
 			(layer "Dwgs.User")
-			(uuid "6083ac01-d8c5-4d9b-a514-ab5227234aa2")
+			(uuid "17e11f49-8f12-4567-a91e-c3eaea38b7ed")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -1672,7 +1672,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6fd58154-af37-4009-a8e6-86f9f8bd2ea6")
+			(uuid "e4c47b15-7827-4ae5-b799-22bfbdbd1f4c")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -1682,7 +1682,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4bdc797e-fdff-4900-bd24-6d88156b43d6")
+			(uuid "524375ef-5e4c-4e2e-acf5-8a7dcb2aaff7")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -1692,7 +1692,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "df7d0d7f-f164-4545-a67e-82582b4d8b01")
+			(uuid "19892e59-5e17-4fa6-8c22-1ef44c488ed7")
 		)
 		(fp_line
 			(start 0.25 1)
@@ -1702,12 +1702,12 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a568096b-e832-4d8c-87b3-3eeb22795c5a")
+			(uuid "2cd059fa-b659-45ae-8a1a-44bf38e088e1")
 		)
-		(fp_text user "KIKIT: width: 2mm"
+		(fp_text user "KIKIT: width: 2.5mm"
 			(at -5.5 0 135)
 			(layer "Dwgs.User")
-			(uuid "aa1c21d1-e018-4b7a-93c0-8b5019cbc2e0")
+			(uuid "60e6ae82-7bb1-4bb8-8a90-757dfbf03831")
 			(effects
 				(font
 					(size 1 1)
@@ -2248,10 +2248,10 @@
 		(at 124.43 89.98 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
-			(at 0 -2.000001 360)
+			(at 0 -2.000001 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "578816bc-995e-473c-a0f8-7fccc43972f4")
+			(uuid "8cc2b4bd-75af-4eda-8364-cf2f228d0292")
 			(effects
 				(font
 					(size 1 1)
@@ -2260,9 +2260,9 @@
 			)
 		)
 		(property "Value" "Tab"
-			(at -3 -1 360)
+			(at -3 -1 0)
 			(layer "Dwgs.User")
-			(uuid "6083ac01-d8c5-4d9b-a514-ab5227234aa2")
+			(uuid "452f78d8-9e01-4375-8281-ecccb57685c6")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f6a546a-ee20-4d80-9fae-f16b56ed1e3d")
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51ed3eb9-02ba-4308-bd6c-e21678f6df8f")
@@ -2295,7 +2295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82aede23-e000-49ad-a30c-919744240c5e")
@@ -2315,7 +2315,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a568096b-e832-4d8c-87b3-3eeb22795c5a")
+			(uuid "83ef5416-c13a-4163-a61a-a7c816bec656")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -2325,7 +2325,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "df7d0d7f-f164-4545-a67e-82582b4d8b01")
+			(uuid "9f1eda25-d69d-4cf0-b60d-1a7350940a19")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -2335,7 +2335,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4bdc797e-fdff-4900-bd24-6d88156b43d6")
+			(uuid "b3b14e63-6e14-4b28-bc37-08123d539cc3")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -2345,12 +2345,12 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6fd58154-af37-4009-a8e6-86f9f8bd2ea6")
+			(uuid "6031bbc5-6dcb-4de5-b1a3-8bce41ce1cbb")
 		)
-		(fp_text user "KIKIT: width: 2mm"
+		(fp_text user "KIKIT: width: 2.5mm"
 			(at -5.5 0 90)
 			(layer "Dwgs.User")
-			(uuid "aa1c21d1-e018-4b7a-93c0-8b5019cbc2e0")
+			(uuid "7fae6699-f419-49a5-9e45-80157fa65440")
 			(effects
 				(font
 					(size 1 1)
@@ -2366,7 +2366,7 @@
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D4"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "00a2809f-5cc8-453b-9630-79276af2c823")
@@ -2378,7 +2378,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "411b73e5-9b73-497d-874b-e18ff379b415")
@@ -2557,7 +2557,7 @@
 			(uuid "8de44573-b25e-4a8c-90c9-8df6223cf6ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "575e33de-c29e-4f54-8d0c-57efe1359809")
@@ -7208,7 +7208,6 @@
 				(xy 121.540734 93.695518) (xy 121.895587 93.527685) (xy 122.232281 93.325878) (xy 122.547573 93.092042)
 				(xy 122.838427 92.828427) (xy 123.102042 92.537573) (xy 123.335878 92.222281) (xy 123.537685 91.885587)
 				(xy 123.705518 91.530734) (xy 123.837761 91.161139) (xy 123.933141 90.780361) (xy 123.990739 90.392069)
-				(xy 124.01 90)
 			)
 		)
 		(filled_polygon
